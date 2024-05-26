@@ -1,0 +1,300 @@
+@font-face {
+  font-family: tipoLetra;
+  src: url(../tipografias/OpenSans-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: tipoLetra, sans-serif;
+}
+
+body{
+  background-color: rgb(17, 102, 128);
+}
+
+/* body {
+  border-left: solid 2px;
+  border-right: solid 2px;
+  width: 1205px;
+}
+ */
+header {
+  /* border: 5px black solid; */
+  width: 1200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgb(255, 253, 250);
+}
+
+.menuPrincipal li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.botonMenuComprar {
+  border-radius: 35px;
+  border: 2px black solid;
+  padding: 15px;
+  background-color: rgb(52, 149, 214);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.botonMenuComprar:hover{
+  transform: scale(1.1);
+  background-color: rgb(85, 59, 180);
+
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+li a:link {
+  color: black;
+  text-decoration: none;
+}
+
+
+li a:visited {
+  color: black;
+}
+
+li a:hover {
+  color: rgb(255, 132, 17);
+  font-weight: 800;
+}
+
+section p {
+  padding-top: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  /* border: 5px solid orange; */
+  align-self: center;
+  background-image: url(../images/fondo_main.jpg);
+  background-size: contain;
+}
+.botonComprar {
+  transition: all 0.3s ease;
+}
+.botonComprar:hover {
+  transform: scale(1.1);
+  background-color: rgb(85, 59, 180);
+}
+
+.imagenPrincipal {
+  max-width: 600px;
+  height: auto;
+  /*  border: solid 5px black; */
+}
+
+.contenidoIzquierda {
+  width: 40%;
+  padding-left: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: whitesmoke;
+}
+
+.textoRelleno {
+  margin-bottom: 20px;
+  color: whitesmoke;
+  line-height: 30px;
+}
+
+.botonMasInformacion {
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgb(43, 115, 209);
+  color: white;
+  font-family: tipoLetra;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botonMasInformacion:hover{
+  background-color: rgb(24, 92, 180);
+  transform: scale(1.2);
+  font-weight: bold;
+
+}
+
+.display {
+  width: 1200px;
+  display: flex;
+  /*  border: 5px black solid; */
+  padding: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-around;
+  background-color: hsl(27, 100%, 94%);
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.primeraZapatilla {
+  border: black solid 2px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 50px 20px;
+  box-shadow: rgba(46, 162, 240, 0.4) 0px 5px, rgba(43, 153, 243, 0.3) 0px 10px,
+  rgba(46, 162, 240, 0.2) 0px 15px, rgba(46, 107, 240, 0.1) 0px 20px,
+  rgba(76, 0, 255, 0.05) 0px 25px;
+}
+
+.segundaZapatilla {
+  border: black solid 2px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 50px 20px;
+  box-shadow: rgba(46, 162, 240, 0.4) 0px 5px, rgba(43, 153, 243, 0.3) 0px 10px,
+    rgba(46, 162, 240, 0.2) 0px 15px, rgba(46, 107, 240, 0.1) 0px 20px,
+    rgba(76, 0, 255, 0.05) 0px 25px;
+}
+.terceraZapatilla {
+  border: black solid 2px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 50px 20px;
+  box-shadow: rgba(46, 162, 240, 0.4) 0px 5px, rgba(43, 153, 243, 0.3) 0px 10px,
+  rgba(46, 162, 240, 0.2) 0px 15px, rgba(46, 107, 240, 0.1) 0px 20px,
+  rgba(76, 0, 255, 0.05) 0px 25px;
+}
+
+.botonComprar {
+  display: block;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgb(52, 149, 214);
+  color: white;
+  font-weight: bold;
+  border: 1.5px black solid;
+  cursor: pointer;
+}
+.informacion {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: rgb(255, 253, 250);
+  /*   border: black solid 5px; */
+  padding-top: 25px;
+  padding-left: 65px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  border-top: 2px rgb(110, 110, 110) solid;
+  border-bottom: 2px rgb(110, 110, 110) solid;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.tiendita {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.empresa {
+  width: 25%;
+  margin: 0;
+  padding-left: 40px;
+  font-size: 12px;
+}
+
+.productos {
+  width: 25%;
+  margin: 0;
+  padding-left: 40px;
+  font-size: 12px;
+}
+
+
+
+.soporte {
+  width: 25%;
+  margin: 0;
+  padding-left: 40px;
+  font-size: 12px;
+}
+
+.textoFinal {
+  line-height: 20px;
+}
+
+.final {
+  width: 1200px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(255, 238, 224);
+  padding: 30px;
+
+  flex-direction: column;
+}
+
+.redesSociales{
+
+  padding-top: 15px;
+  
+}
+
+.listaEmpresa {
+  list-style-type: none;
+}
+
+.botonWeb {
+  margin-top: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+/* header {
+  height: 100px;
+  background-color: rgb(255, 253, 250);
+  display: flex;
+  border: 5px solid;
+}
+
+.botonesMenuPrincipal {
+  border: 5px red solid;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+/* header {
+  height: 100px;
+  background-color: rgb(255, 253, 250);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*  border: 5px solid black; */
+/*   width: 1200px;
+}
+ */
